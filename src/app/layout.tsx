@@ -23,9 +23,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br" className='!scroll-smooth'>
       <body className={PoppinsFont.className}>
-        <Header />
-         {children}
-        <Footer />
+        {children}
       </body>
     </html>
   )
